@@ -11,9 +11,13 @@ The dataset was split into training, validation, and test sets, with respective 
 
 **Methodology**
 **Data Preprocessing:** The images are resized and normalized to prepare them for model training.
+
 **Model Selection:** A pre-trained convolutional neural network (MobileNetV2) is utilized for its efficiency and accuracy in image classification tasks.
+
 **Training Process:** The model is trained with a categorical cross-entropy loss function and an Adam optimizer. Fine-tuning is applied to improve accuracy further.
+
 **Evaluation Metrics:** The model's performance is evaluated based on accuracy and loss on the test dataset, alongside a confusion matrix to visualize classification results.
+
 **Results**
 After training and fine-tuning, the model achieved an accuracy of 89% on the test dataset. It indicates that with more optmization techniques, the model can effectively distinguish between diseased and healthy cotton plants and leaves.
 
