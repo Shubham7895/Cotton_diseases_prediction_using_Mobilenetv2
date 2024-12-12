@@ -3,11 +3,10 @@ This project aims to develop a machine learning model to classify cotton plant h
 
 **Dataset**
 The dataset consists of images categorized into four classes:
-
-Diseased Cotton Leaf
-Diseased Cotton Plant
-Fresh Cotton Leaf
-Fresh Cotton Plant
+Diseased Cotton Leaf,
+Diseased Cotton Plant,
+Fresh Cotton Leaf,
+Fresh Cotton Plant.
 The dataset was split into training, validation, and test sets, with respective sizes to ensure the model learns effectively and generalizes well.
 
 **Methodology**
